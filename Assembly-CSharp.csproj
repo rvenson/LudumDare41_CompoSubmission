@@ -46,6 +46,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\ActionsController.cs" />
      <Compile Include="Assets\Scripts\Model\Car.cs" />
      <Compile Include="Assets\Scripts\Model\CarPart.cs" />
      <Compile Include="Assets\Scripts\Model\CarRaceTime.cs" />
@@ -54,6 +55,8 @@
      <Compile Include="Assets\Scripts\Model\Grid.cs" />
      <Compile Include="Assets\Scripts\Race.cs" />
      <Compile Include="Assets\Scripts\RaceManager.cs" />
+     <Compile Include="Assets\Scripts\UI\GridCellUI.cs" />
+     <Compile Include="Assets\Scripts\UI\GridUI.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">
  <HintPath>/home/venson/Documents/UnityProjects/LDJAM_41_rvenson/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>

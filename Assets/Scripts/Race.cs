@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Race : MonoBehaviour {
+public class Race {
 
 	Circuit circuit;
 	int currentLap = 0;
@@ -79,18 +79,18 @@ public class Race : MonoBehaviour {
 			foreach(CarRaceTime other in carsAheadTime){
 
 				if((c.totalTime + lapTime) < other.totalTime){
-					Debug.Log("t: " + (c.totalTime + lapTime) + "/" + other.totalTime);
+					//Debug.Log("t: " + (c.totalTime + lapTime) + "/" + other.totalTime);
 					//Can overtaking
 					if(Random.Range(0, 100) > 50){
 						//Success overtaking
-						Debug.Log(c.car.GetDriver().GetDriverName() + 
-						" overtakes " + other.car.GetDriver().GetDriverName());
+						//Debug.Log(c.car.GetDriver().GetDriverName() + 
+						//" overtakes " + other.car.GetDriver().GetDriverName());
 					} else {
 						//fail to overtaking
 						c.currentLapTime += (other.totalTime - (c.totalTime + c.currentLapTime));
 						c.currentLapTime += Random.Range(0.05f, 0.2f);
-						Debug.Log(c.car.GetDriver().GetDriverName() + 
-						" fail to overtake " + other.car.GetDriver().GetDriverName());
+						//Debug.Log(c.car.GetDriver().GetDriverName() + 
+						//" fail to overtake " + other.car.GetDriver().GetDriverName());
 					}
 				} else {
 					//Not overtaking

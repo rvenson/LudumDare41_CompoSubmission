@@ -43,4 +43,8 @@ public class Car {
 		return driver;
 	}
 
+	public string GetTeamName(){
+		return teamName;
+	}
+
 }
