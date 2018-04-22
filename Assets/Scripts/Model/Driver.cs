@@ -15,6 +15,13 @@ public class Driver {
         overtaking = 1;
     }
 
+    public Driver(string driverName, int dexterity, int consistency, int overtaking){
+        this.driverName = driverName;
+        this.dexterity = dexterity;
+        this.consistency = consistency;
+        this.overtaking = overtaking;
+    }
+
     public string GetDriverName(){
         return driverName;
     }

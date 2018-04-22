@@ -3,15 +3,15 @@ using System.Collections.Generic;
 
 public class CarPart {
 
-    int performance;
-    int status;
+    float performance;
+    float status;
 
     public CarPart(){
         performance = 1;
         status = 100;
     }
 
-    public void ApplyWear(int wear){
+    public void ApplyWear(float wear){
         status -= wear;
 
         if(status <= 0){
@@ -19,6 +19,13 @@ public class CarPart {
         }
     }
 
+    public float GetPerformance(){
+        return performance;
+    }
+
+    public float GetStatus(){
+        return status;
+    }
     
 
 }

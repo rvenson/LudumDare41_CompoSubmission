@@ -180,7 +180,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &3495875
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -254,7 +254,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &19152823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -598,7 +598,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &45799823
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -672,7 +672,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &58668275
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -746,7 +746,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &64986109
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &77853539
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -894,7 +894,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &89466513
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1056,7 +1056,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &119393296
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1165,7 +1165,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &142345073
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1239,7 +1239,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &190751983
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1436,7 +1438,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &277230295
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1510,7 +1512,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &300261924
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1672,7 +1676,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &335703379
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1746,7 +1752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &392130472
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1894,7 +1900,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &398388780
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2130,7 +2136,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &443632543
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2204,7 +2212,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &461775995
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2278,7 +2286,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &473628418
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2513,7 +2521,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &540716668
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2587,7 +2595,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &558587151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2696,7 +2704,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &583517948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2844,7 +2852,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &588911086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2861,6 +2869,7 @@ GameObject:
   - component: {fileID: 590468733}
   - component: {fileID: 590468735}
   - component: {fileID: 590468734}
+  - component: {fileID: 590468736}
   m_Layer: 5
   m_Name: ActionsBar
   m_TagString: Untagged
@@ -2921,6 +2930,19 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 590468732}
+--- !u!114 &590468736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 590468732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd663afba27504d0b90d333c861bd39f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  msg: {fileID: 890353920}
+  actions: {fileID: 1640028509}
 --- !u!1 &608106460
 GameObject:
   m_ObjectHideFlags: 0
@@ -2988,7 +3010,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &608106463
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3022,6 +3046,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 64574cbaaefec46a8b29088bfe92bed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  actions: {fileID: 1640028511}
 --- !u!4 &619446653
 Transform:
   m_ObjectHideFlags: 0
@@ -3102,7 +3127,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &648830635
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3387,7 +3412,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &734865423
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3461,7 +3486,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &737599108
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3535,7 +3562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &751774232
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3644,7 +3671,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &753764503
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3827,7 +3856,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &780449854
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3901,7 +3930,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &796857166
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3975,7 +4004,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &831079905
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4155,6 +4184,7 @@ GameObject:
   - component: {fileID: 850802455}
   - component: {fileID: 850802457}
   - component: {fileID: 850802456}
+  - component: {fileID: 850802458}
   m_Layer: 5
   m_Name: Action01 (3)
   m_TagString: Untagged
@@ -4173,7 +4203,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1640028509}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -4219,6 +4249,58 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 850802454}
+--- !u!114 &850802458
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 850802454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 850802456}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1640028511}
+        m_MethodName: EasyLap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &890353918
 GameObject:
   m_ObjectHideFlags: 0
@@ -4286,10 +4368,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: The start was problematic and some cars run wide on the first corner. You
-    left unharmed and managed to maintain your position, but the distance to the second
-    place remains the same. Meanwhile, the two cars from behind remain very close.
-    What do you want to do?
+  m_Text: 
 --- !u!222 &890353921
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4451,7 +4530,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &930086859
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4599,7 +4678,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &960408940
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4673,7 +4752,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &973791758
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4747,7 +4826,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &986818310
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4909,7 +4988,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &996345674
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4983,7 +5064,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1044302141
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5145,7 +5226,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1082767912
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5219,7 +5300,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1106111123
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5293,7 +5376,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1123713669
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5441,7 +5524,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1215066301
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5515,7 +5600,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1217445230
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5739,7 +5824,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1247506282
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5813,7 +5898,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1249141482
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5887,7 +5972,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1295881890
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -5961,7 +6048,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1299124963
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6035,7 +6122,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1323297835
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6251,7 +6338,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1344220086
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6325,7 +6412,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1367552300
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6399,7 +6486,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1390322759
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6473,7 +6560,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1390365500
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6547,7 +6634,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1391687891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6621,7 +6708,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1396986971
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6695,7 +6782,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1434201367
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6769,7 +6856,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1440946862
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6843,7 +6932,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1465397244
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7029,7 +7118,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1503616147
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7103,7 +7192,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1505240312
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7177,7 +7266,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1520204321
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7251,7 +7340,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1549692032
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7325,7 +7414,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1553338444
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7473,7 +7562,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1591096151
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7578,6 +7667,7 @@ GameObject:
   - component: {fileID: 1598652543}
   - component: {fileID: 1598652545}
   - component: {fileID: 1598652544}
+  - component: {fileID: 1598652546}
   m_Layer: 5
   m_Name: Action01 (1)
   m_TagString: Untagged
@@ -7596,7 +7686,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1640028509}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -7642,6 +7732,58 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1598652542}
+--- !u!114 &1598652546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1598652542}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1598652544}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1640028511}
+        m_MethodName: PushLap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1624456130
 GameObject:
   m_ObjectHideFlags: 0
@@ -7845,10 +7987,10 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1657621653}
   - {fileID: 1598652543}
   - {fileID: 1673980003}
   - {fileID: 850802455}
+  - {fileID: 1657621653}
   - {fileID: 1837762158}
   m_Father: {fileID: 590468733}
   m_RootOrder: 1
@@ -7892,6 +8034,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ebc76895050fe498faf2125be3401b0f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ui: {fileID: 590468736}
 --- !u!1 &1647763205
 GameObject:
   m_ObjectHideFlags: 0
@@ -7903,6 +8046,7 @@ GameObject:
   - component: {fileID: 1647763209}
   - component: {fileID: 1647763208}
   - component: {fileID: 1647763207}
+  - component: {fileID: 1647763210}
   m_Layer: 5
   m_Name: StatusBar
   m_TagString: Untagged
@@ -7990,6 +8134,23 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1647763205}
+--- !u!114 &1647763210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1647763205}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1587a267ceb174f6ca42caac1e27b922, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  motor: {fileID: 936701228}
+  gearbox: {fileID: 1562563638}
+  suspension: {fileID: 400795491}
+  brakes: {fileID: 1163438335}
+  tyres: {fileID: 1759512777}
+  fuel: {fileID: 843235226}
 --- !u!1 &1648181328
 GameObject:
   m_ObjectHideFlags: 0
@@ -8145,7 +8306,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1650109945
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8180,7 +8343,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1640028509}
-  m_RootOrder: 0
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8219,7 +8382,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Risk All!
+  m_Text: 
 --- !u!222 &1657621655
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8255,7 +8418,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1640028509}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -8341,7 +8504,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1640028511}
-        m_MethodName: DoALap
+        m_MethodName: PaceLap
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8420,7 +8583,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1686437747
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8494,7 +8659,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1732278410
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8642,7 +8807,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1772971949
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8716,7 +8883,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1799034553
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8790,7 +8959,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &1801607572
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8952,7 +9123,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1814068676
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8969,6 +9140,7 @@ GameObject:
   - component: {fileID: 1837762158}
   - component: {fileID: 1837762160}
   - component: {fileID: 1837762159}
+  - component: {fileID: 1837762161}
   m_Layer: 5
   m_Name: Action01 (4)
   m_TagString: Untagged
@@ -9033,6 +9205,58 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1837762157}
+--- !u!114 &1837762161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1837762157}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1392445389, guid: f5f67c52d1564df4a8936ccd202a3bd8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 3
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 1
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1837762159}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1640028511}
+        m_MethodName: PitStopLap
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
+      Culture=neutral, PublicKeyToken=null
 --- !u!1 &1853860251
 GameObject:
   m_ObjectHideFlags: 0
@@ -9174,7 +9398,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &1888831948
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9322,7 +9546,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &1916299482
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9396,7 +9620,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1936675712
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9470,7 +9694,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &1995980087
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9487,6 +9711,7 @@ GameObject:
   - component: {fileID: 1998384131}
   - component: {fileID: 1998384133}
   - component: {fileID: 1998384132}
+  - component: {fileID: 1998384134}
   m_Layer: 5
   m_Name: TitleBar
   m_TagString: Untagged
@@ -9548,6 +9773,20 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1998384130}
+--- !u!114 &1998384134
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1998384130}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 131a09353567a4d599b9c5ea6dc7ad3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameTitle: {fileID: 587645330}
+  circuitTitle: {fileID: 1853860253}
+  laps: {fileID: 1914426326}
 --- !u!1 &2005334115
 GameObject:
   m_ObjectHideFlags: 0
@@ -9615,7 +9854,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &2005334118
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9689,7 +9928,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &2006657439
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9763,7 +10004,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Ayrton Senna da Silva
+  m_Text: 
 --- !u!222 &2063089150
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9837,7 +10078,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1
+  m_Text: 
 --- !u!222 &2077163317
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10073,7 +10314,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &2106497964
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10221,7 +10464,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: WIL
+  m_Text: 
 --- !u!222 &2136216781
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10295,7 +10538,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1:22.453
+  m_Text: '
+
+'
 --- !u!222 &2137452374
 CanvasRenderer:
   m_ObjectHideFlags: 0

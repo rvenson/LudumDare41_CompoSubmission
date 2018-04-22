@@ -15,6 +15,12 @@ public class CarRaceTime : IComparable<CarRaceTime> {
 		lapTime = new Dictionary<int, float>();
 	}
 
+	public CarRaceTime(Car car){
+		this.car = car;
+		totalTime = 0;
+		lapTime = new Dictionary<int, float>();
+	}
+
 	public int CompareTo(CarRaceTime other)
     {
         if(other == null)
