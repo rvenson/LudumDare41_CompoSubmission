@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ActionsController : MonoBehaviour
 {
@@ -155,43 +156,47 @@ public class ActionsController : MonoBehaviour
 		}
 
 		
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
+	}
+
+	public void BackToMenu(){
+		SceneManager.LoadScene("MainMenu");
 	}
 
 	public void MotorFailure(){
 		ui.msg.text = phrase_motor[Random.Range(0, phrase_motor.Count-1)];
 		img.SetDefeatImage();
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
 	}
 
 	public void GearboxFailure(){
 		ui.msg.text = phrase_gearbox[Random.Range(0, phrase_gearbox.Count-1)];
 		img.SetDefeatImage();
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
 	}
 
 	public void SuspensionFailure(){
 		ui.msg.text = phrase_suspension[Random.Range(0, phrase_suspension.Count-1)];
 		img.SetDefeatImage();
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
 	}
 
 	public void BreaksFailure(){
 		ui.msg.text = phrase_breaks[Random.Range(0, phrase_breaks.Count-1)];
 		img.SetDefeatImage();
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
 	}
 
 	public void TyresFailure(){
 		ui.msg.text = phrase_tyres[Random.Range(0, phrase_tyres.Count-1)];
 		img.SetDefeatImage();
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
 	}
 
 	public void FuelFailure(){
 		ui.msg.text = phrase_fuel[Random.Range(0, phrase_fuel.Count-1)];
 		img.SetDefeatImage();
-		ui.actions.gameObject.SetActive(false);
+		FinishGame();
 	}
 
     public void PushLap()
@@ -219,5 +224,10 @@ public class ActionsController : MonoBehaviour
 		RaceManager.instance.GetRace().GetMainPlayer().SetMotorMode(2);
         RaceManager.instance.GetRace().GetMainPlayer().SetTyreMode(2);
         RaceManager.instance.DoALap(true);
+	}
+
+	void FinishGame(){
+		ui.actions.gameObject.SetActive(false);
+		ui.backMenu.SetActive(true);
 	}
 }

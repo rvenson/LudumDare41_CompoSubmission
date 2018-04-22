@@ -4,7 +4,6 @@
 -langversion:4
 -out:'Temp/Assembly-CSharp.dll'
 -nostdlib
--r:'Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll'
@@ -72,10 +71,6 @@
 -r:'/home/venson/apps/unity2018/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll'
--r:'/home/venson/.config/unity3d/cache/packages/packages.unity.com/com.unity.analytics@2.0.13/UnityEngine.Analytics.dll'
--r:'/home/venson/.config/unity3d/cache/packages/packages.unity.com/com.unity.ads@2.0.3/UnityEngine.Advertisements.dll'
--r:'/home/venson/.config/unity3d/cache/packages/packages.unity.com/com.unity.purchasing@0.0.19/UnityEngine.Purchasing.dll'
--r:'/home/venson/.config/unity3d/cache/packages/packages.unity.com/com.unity.standardevents@1.0.10/UnityEngine.StandardEvents.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/mscorlib.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.dll'
 -r:'/home/venson/apps/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity/System.Core.dll'
@@ -191,6 +186,8 @@
 'Assets/Scripts/UI/ActionUI.cs'
 'Assets/Scripts/UI/GridCellUI.cs'
 'Assets/Scripts/UI/GridUI.cs'
+'Assets/Scripts/UI/ImageUI.cs'
+'Assets/Scripts/UI/MenuUI.cs'
 'Assets/Scripts/UI/StatusUI.cs'
 'Assets/Scripts/UI/TitleUI.cs'
 -lib:'/home/venson/apps/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity'

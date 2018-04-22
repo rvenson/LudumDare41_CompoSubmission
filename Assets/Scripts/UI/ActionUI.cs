@@ -7,5 +7,7 @@ public class ActionUI : MonoBehaviour {
 
 	public Text msg;
 	public Transform actions;
+
+	public GameObject backMenu;
 	
 }

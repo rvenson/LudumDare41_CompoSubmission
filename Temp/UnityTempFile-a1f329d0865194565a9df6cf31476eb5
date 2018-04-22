@@ -180,6 +180,7 @@
 -define:ENABLE_UNITY_COLLECTIONS_CHECKS
 -define:UNITY_TEAM_LICENSE
 'Assets/Scripts/ActionsController.cs'
+'Assets/Scripts/GameManager.cs'
 'Assets/Scripts/Generator.cs'
 'Assets/Scripts/Model/Car.cs'
 'Assets/Scripts/Model/CarPart.cs'
@@ -193,6 +194,7 @@
 'Assets/Scripts/UI/GridCellUI.cs'
 'Assets/Scripts/UI/GridUI.cs'
 'Assets/Scripts/UI/ImageUI.cs'
+'Assets/Scripts/UI/MenuUI.cs'
 'Assets/Scripts/UI/StatusUI.cs'
 'Assets/Scripts/UI/TitleUI.cs'
 -lib:'/home/venson/apps/unity2018/Editor/Data/MonoBleedingEdge/lib/mono/unity'

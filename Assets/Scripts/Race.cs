@@ -34,7 +34,7 @@ public class Race : MonoBehaviour {
 		grid = Generator.GenerateGrid();
 
 		//AddMainPlayer
-		mainPlayer = new CarRaceTime(new Car("SRT", new Driver("Ramon Venson", 1, 1, 1),
+		mainPlayer = new CarRaceTime(new Car("SRT", new Driver(GameManager.instance.driverName, 1, 1, 1),
 		new CarPart(), new CarPart(), new CarPart(), new CarPart(), new CarPart(), 35
 		));
 		grid.carTime.Insert(2, mainPlayer);

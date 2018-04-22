@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActionsController.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Generator.cs" />
      <Compile Include="Assets\Scripts\Model\Car.cs" />
      <Compile Include="Assets\Scripts\Model\CarPart.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\UI\GridCellUI.cs" />
      <Compile Include="Assets\Scripts\UI\GridUI.cs" />
      <Compile Include="Assets\Scripts\UI\ImageUI.cs" />
+     <Compile Include="Assets\Scripts\UI\MenuUI.cs" />
      <Compile Include="Assets\Scripts\UI\StatusUI.cs" />
      <Compile Include="Assets\Scripts\UI\TitleUI.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">
