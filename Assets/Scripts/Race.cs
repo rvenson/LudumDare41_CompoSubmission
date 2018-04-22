@@ -31,18 +31,6 @@ public class Race : MonoBehaviour {
 	}
 
 	void PopulateGrid(){
-		/*
-		for(int i = 0; i < 19; i++){
-			grid.carTime.Add(new CarRaceTime());
-		}
-
-		int driverNumber = 1;
-		foreach(CarRaceTime c in grid.carTime){
-			c.car.GetDriver().SetDriverName("Driver " + driverNumber);
-			driverNumber += 1;
-		}
-		 */
-
 		grid = Generator.GenerateGrid();
 
 		//AddMainPlayer
@@ -154,6 +142,10 @@ public class Race : MonoBehaviour {
 
 	public CarRaceTime GetMainPlayerGrid(){
 		return grid.carTime[grid.carTime.IndexOf(mainPlayer)];
+	}
+
+	public int GetMainPlayerPosition(){
+		return grid.carTime.IndexOf(mainPlayer);
 	}
 
 	void FinishRace(){

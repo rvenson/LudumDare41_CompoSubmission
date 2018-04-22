@@ -22,7 +22,7 @@ MonoBehaviour:
   m_MinSize: {x: 581, y: 471}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 1
-  controlID: 25461
+  controlID: 27698
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -121,7 +121,7 @@ MonoBehaviour:
   m_MinSize: {x: 581, y: 471}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 25462
+  controlID: 27699
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -145,7 +145,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 471}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 25463
+  controlID: 27700
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -169,7 +169,7 @@ MonoBehaviour:
   m_MinSize: {x: 304, y: 200}
   m_MaxSize: {x: 8004, y: 4021}
   vertical: 0
-  controlID: 25464
+  controlID: 27701
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -222,8 +222,8 @@ MonoBehaviour:
   m_PersistentViewDataDictionary: {fileID: 0}
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 5ccbfeff
-    m_LastClickedID: -79012
+    m_SelectedIDs: 
+    m_LastClickedID: 0
     m_ExpandedIDs: 20d2fdff100bfeff281bfeff4624feffbe66feff5ccbfeff34e4feff26ebfeffa402ffff0211ffff0c12ffff82f6ffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -511,8 +511,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 5ccbfeff
-    m_LastClickedInstanceID: -79012
+    m_SelectedInstanceIDs: 
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: 5e5d00002c350000542f00004a3f0000a0350000242b00003e350000c23100008a2e00006e270000e651f8ffce7a00004cd300005e2e0000202d0000c22c00001286ffff52270000c265f9ff24330000d62f0000984400009e320000f62f0000663700008037000006290000c035000076330000d4350000fa2c00008a2c0000cc2f0000bc3300005e370000e83d0000602f0000da330000342a00006c290000563400003ef8d6ff0c22e0ffa22d0000682e00009c2d0000c83400009e69feff70380000d02b00000000000034350000
     m_RenameOverlay:
@@ -926,7 +926,7 @@ MonoBehaviour:
   m_AnimEditor: {fileID: 0}
   m_LockTracker:
     m_IsLocked: 0
-  m_LastSelectedObjectID: -61182
+  m_LastSelectedObjectID: -79012
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
