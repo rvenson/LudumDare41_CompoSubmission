@@ -27,6 +27,18 @@ public class Car {
 		fuel = 30;
 	}
 
+	public Car(string teamName, Driver driver, int fuel){
+		this.teamName = teamName;
+		this.driver = driver;
+		this.motor = new CarPart();
+		this.gearbox = new CarPart();
+		this.suspension = new CarPart();
+		this.brakes = new CarPart();
+		this.tyres = new CarPart();
+		this.fuel = fuel;
+
+	}
+
 	public Car(string teamName, Driver driver, CarPart motor, CarPart gearbox, CarPart suspension, 
 	CarPart brakes, CarPart tyres, int fuel){
 		this.teamName = teamName;

@@ -31,6 +31,7 @@ public class Race : MonoBehaviour {
 	}
 
 	void PopulateGrid(){
+		/*
 		for(int i = 0; i < 19; i++){
 			grid.carTime.Add(new CarRaceTime());
 		}
@@ -40,6 +41,9 @@ public class Race : MonoBehaviour {
 			c.car.GetDriver().SetDriverName("Driver " + driverNumber);
 			driverNumber += 1;
 		}
+		 */
+
+		grid = Generator.GenerateGrid();
 
 		//AddMainPlayer
 		mainPlayer = new CarRaceTime(new Car("SRT", new Driver("Ramon Venson", 1, 1, 1),
@@ -105,14 +109,14 @@ public class Race : MonoBehaviour {
 					//Can overtaking
 					if(Random.Range(0, 100) > 50){
 						//Success overtaking
-						//Debug.Log(c.car.GetDriver().GetDriverName() + 
-						//" overtakes " + other.car.GetDriver().GetDriverName());
+						Debug.Log(c.car.GetDriver().GetDriverName() + 
+						" overtakes " + other.car.GetDriver().GetDriverName());
 					} else {
 						//fail to overtaking
 						c.currentLapTime += (other.totalTime - (c.totalTime + c.currentLapTime));
 						c.currentLapTime += Random.Range(0.05f, 0.2f);
-						//Debug.Log(c.car.GetDriver().GetDriverName() + 
-						//" fail to overtake " + other.car.GetDriver().GetDriverName());
+						Debug.Log(c.car.GetDriver().GetDriverName() + 
+						" fail to overtake " + other.car.GetDriver().GetDriverName());
 					}
 				} else {
 					//Not overtaking

@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ActionsController.cs" />
+     <Compile Include="Assets\Scripts\Generator.cs" />
      <Compile Include="Assets\Scripts\Model\Car.cs" />
      <Compile Include="Assets\Scripts\Model\CarPart.cs" />
      <Compile Include="Assets\Scripts\Model\CarRaceTime.cs" />
