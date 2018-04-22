@@ -11,7 +11,7 @@ public class Car {
 	CarPart suspension;
 	CarPart brakes;
 	CarPart tyres;
-	int fuel;
+	float fuel;
 
 	int motorMode = 3;
 	int tyresMode = 3;
@@ -59,11 +59,11 @@ public class Car {
 
 	public void ApplyPartsWear(){
 		motor.ApplyWear(motorMode/1.5f);
-		gearbox.ApplyWear(motorMode/1.5f);
+		gearbox.ApplyWear(motorMode/1.6f);
 		suspension.ApplyWear(1);
-		brakes.ApplyWear(tyresMode/1.5f);
-		tyres.ApplyWear(tyresMode/1.5f);
-		fuel -= 1;
+		brakes.ApplyWear(tyresMode/1.6f);
+		tyres.ApplyWear(tyresMode/1.2f);
+		fuel -= 0.7f + (motorMode/10f);
 	}
 
 	public Driver GetDriver(){
@@ -105,5 +105,10 @@ public class Car {
 
 	public void Refuel(int fuel){
 		this.fuel = Mathf.Clamp(this.fuel + fuel, 0, 35);
+		ChangeTyres();
+	}
+
+	public void ChangeTyres(){
+		this.tyres = new CarPart();
 	}
 }
