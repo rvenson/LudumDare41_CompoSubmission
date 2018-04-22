@@ -133,9 +133,11 @@ public class Race : MonoBehaviour {
 			//Pitstop check if bot
 			if(c != GetMainPlayerGrid() && c.car.GetFuel() <= 1){
 				Pitstop(c);
-			} else if (pitstop){
-				Pitstop(GetMainPlayerGrid());
 			}
+		}
+
+		if (pitstop){
+			Pitstop(GetMainPlayerGrid());
 		}
 
 		//align grid
