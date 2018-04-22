@@ -59,6 +59,7 @@
      <Compile Include="Assets\Scripts\UI\ActionUI.cs" />
      <Compile Include="Assets\Scripts\UI\GridCellUI.cs" />
      <Compile Include="Assets\Scripts\UI\GridUI.cs" />
+     <Compile Include="Assets\Scripts\UI\ImageUI.cs" />
      <Compile Include="Assets\Scripts\UI\StatusUI.cs" />
      <Compile Include="Assets\Scripts\UI\TitleUI.cs" />
  <Reference Include="Unity.PackageManagerUI.Editor">

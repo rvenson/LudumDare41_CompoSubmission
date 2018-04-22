@@ -8,6 +8,8 @@ public class ActionsController : MonoBehaviour
 	public static ActionsController instance;
 
     public ActionUI ui;
+	public ImageUI img;
+
 	List<string> phrase_warm = new List<string>();
     List<string> phrase_start = new List<string>();
     List<string> phrase_normal = new List<string>();
@@ -95,6 +97,7 @@ public class ActionsController : MonoBehaviour
     public void WarmUpAction()
     {
         ui.msg.text = phrase_warm[Random.Range(0, phrase_warm.Count-1)];
+		img.SetWarmUpImage();
     }
 
     public void StartAction()
@@ -105,21 +108,28 @@ public class ActionsController : MonoBehaviour
     public void NormalAction()
     {
 		ui.msg.text = phrase_normal[Random.Range(0, phrase_normal.Count-1)];
+		img.SetNormalImage();
     }
 
 	public void OvertakingAction(int diff){
 		if(diff < -2){
 			ui.msg.text = "I overtook several cars and won " + Mathf.Abs(diff) + " positions"; 
+			img.SetOvertakeGainImage();
 		} else if(diff < -1){
-			ui.msg.text = "I overtook two cars!"; 
+			ui.msg.text = "I overtook two cars!";
+			img.SetOvertakeGainImage(); 
 		} else if(diff == -1){
-			ui.msg.text = "I overtook one car and gain one position"; 
+			ui.msg.text = "I overtook one car and gain one position";
+			img.SetOvertakeGainImage(); 
 		} else if(diff == 1){
 			ui.msg.text = "I've been passed! Dammit!"; 
+			img.SetOvertakeLossImage();
 		} else if(diff > 1){
 			ui.msg.text = "Two cars passed me! Overtaking could only have been illegal!"; 
+			img.SetOvertakeLossImage();
 		} else if(diff > 2){
 			ui.msg.text = "F**k! I was overtaken by an entire gang!"; 
+			img.SetOvertakeLossImage();
 		} else {
 			ui.msg.text = "What's happened?!"; 
 		}
@@ -129,14 +139,19 @@ public class ActionsController : MonoBehaviour
 
 		if(p == 0){
 			ui.msg.text = phrase_finalBest[Random.Range(0, phrase_finalBest.Count-1)];
+			img.SetBestWinImage();
 		} else if(p < 3){
 			ui.msg.text = phrase_finalGood[Random.Range(0, phrase_finalGood.Count-1)];
+			img.SetGoodWinImage();
 		} else if(p < 7){
 			ui.msg.text = phrase_finalOK[Random.Range(0, phrase_finalOK.Count-1)];
+			img.SetOKWinImage();
 		} else if(p < 12){
 			ui.msg.text = phrase_finalBad[Random.Range(0, phrase_finalBad.Count-1)];
+			img.SetBadWinImage();
 		} else{
 			ui.msg.text = phrase_finalWorst[Random.Range(0, phrase_finalWorst.Count-1)];
+			img.SetWorstWinImage();
 		}
 
 		
@@ -145,31 +160,37 @@ public class ActionsController : MonoBehaviour
 
 	public void MotorFailure(){
 		ui.msg.text = phrase_motor[Random.Range(0, phrase_motor.Count-1)];
+		img.SetDefeatImage();
 		ui.actions.gameObject.SetActive(false);
 	}
 
 	public void GearboxFailure(){
 		ui.msg.text = phrase_gearbox[Random.Range(0, phrase_gearbox.Count-1)];
+		img.SetDefeatImage();
 		ui.actions.gameObject.SetActive(false);
 	}
 
 	public void SuspensionFailure(){
 		ui.msg.text = phrase_suspension[Random.Range(0, phrase_suspension.Count-1)];
+		img.SetDefeatImage();
 		ui.actions.gameObject.SetActive(false);
 	}
 
 	public void BreaksFailure(){
 		ui.msg.text = phrase_breaks[Random.Range(0, phrase_breaks.Count-1)];
+		img.SetDefeatImage();
 		ui.actions.gameObject.SetActive(false);
 	}
 
 	public void TyresFailure(){
 		ui.msg.text = phrase_tyres[Random.Range(0, phrase_tyres.Count-1)];
+		img.SetDefeatImage();
 		ui.actions.gameObject.SetActive(false);
 	}
 
 	public void FuelFailure(){
 		ui.msg.text = phrase_fuel[Random.Range(0, phrase_fuel.Count-1)];
+		img.SetDefeatImage();
 		ui.actions.gameObject.SetActive(false);
 	}
 
@@ -195,8 +216,8 @@ public class ActionsController : MonoBehaviour
     }
 
 	public void PitStopLap(){
-		RaceManager.instance.GetRace().GetMainPlayer().SetMotorMode(3);
-        RaceManager.instance.GetRace().GetMainPlayer().SetTyreMode(3);
+		RaceManager.instance.GetRace().GetMainPlayer().SetMotorMode(2);
+        RaceManager.instance.GetRace().GetMainPlayer().SetTyreMode(2);
         RaceManager.instance.DoALap(true);
 	}
 }
