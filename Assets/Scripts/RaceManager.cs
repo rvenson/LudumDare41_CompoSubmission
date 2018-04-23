@@ -20,6 +20,7 @@ public class RaceManager : MonoBehaviour {
 	void Start(){
 		race.StartRace();
 		actions.WarmUpAction();
+		AudioManager.instance.Play(1);
 	}
 
 	public void DoALap(bool pitstop = false){

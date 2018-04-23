@@ -22,6 +22,12 @@ public class GridUI : MonoBehaviour {
 			cell.position.text = position.ToString();
 			position += 1;
 			cell.driverName.text = grid.car.GetDriver().GetDriverName();
+			//Colour player
+			if(grid.car.GetDriver().GetDriverName() == GameManager.instance.driverName){
+				cell.driverName.color = Color.green;
+			} else {
+				cell.driverName.color = Color.white;
+			}
 			cell.teamName.text = grid.car.GetTeamName();
 
 			if(position == 2){

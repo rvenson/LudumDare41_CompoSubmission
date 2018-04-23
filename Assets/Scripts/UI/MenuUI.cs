@@ -18,6 +18,7 @@ public class MenuUI : MonoBehaviour {
 
 	void Start(){
 		StartScreen();
+		AudioManager.instance.Play(0);
 	}
 
 	void Update(){
@@ -61,7 +62,7 @@ public class MenuUI : MonoBehaviour {
 
 	public void LoadScreen(){
 
-		if(driverNameInput.text.Length > 3){
+		if(driverNameInput.text.Length > 2){
 			//Load Driver Name
 			GameManager.instance.driverName = driverNameInput.text;
 

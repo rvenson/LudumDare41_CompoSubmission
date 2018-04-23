@@ -112,7 +112,13 @@ public class Race : MonoBehaviour {
 			}
 
 			//Registry lap time history and sum to the total time
-			c.lapTime.Add(currentLap, c.currentLapTime);
+			if(c.lapTime.ContainsKey(currentLap)){
+				c.lapTime.Remove(currentLap);
+				c.lapTime.Add(currentLap, c.currentLapTime);
+			} else {
+				c.lapTime.Add(currentLap, c.currentLapTime);
+			}
+			
 			c.totalTime += c.currentLapTime;
 			carsAheadTime.Push(c);
 

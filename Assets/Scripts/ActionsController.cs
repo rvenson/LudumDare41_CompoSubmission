@@ -156,7 +156,7 @@ public class ActionsController : MonoBehaviour
 		}
 
 		
-		FinishGame();
+		FinishGame(3);
 	}
 
 	public void BackToMenu(){
@@ -166,37 +166,37 @@ public class ActionsController : MonoBehaviour
 	public void MotorFailure(){
 		ui.msg.text = phrase_motor[Random.Range(0, phrase_motor.Count-1)];
 		img.SetDefeatImage();
-		FinishGame();
+		FinishGame(2);
 	}
 
 	public void GearboxFailure(){
 		ui.msg.text = phrase_gearbox[Random.Range(0, phrase_gearbox.Count-1)];
 		img.SetDefeatImage();
-		FinishGame();
+		FinishGame(2);
 	}
 
 	public void SuspensionFailure(){
 		ui.msg.text = phrase_suspension[Random.Range(0, phrase_suspension.Count-1)];
 		img.SetDefeatImage();
-		FinishGame();
+		FinishGame(2);
 	}
 
 	public void BreaksFailure(){
 		ui.msg.text = phrase_breaks[Random.Range(0, phrase_breaks.Count-1)];
 		img.SetDefeatImage();
-		FinishGame();
+		FinishGame(2);
 	}
 
 	public void TyresFailure(){
 		ui.msg.text = phrase_tyres[Random.Range(0, phrase_tyres.Count-1)];
 		img.SetDefeatImage();
-		FinishGame();
+		FinishGame(2);
 	}
 
 	public void FuelFailure(){
 		ui.msg.text = phrase_fuel[Random.Range(0, phrase_fuel.Count-1)];
 		img.SetDefeatImage();
-		FinishGame();
+		FinishGame(2);
 	}
 
     public void PushLap()
@@ -226,8 +226,9 @@ public class ActionsController : MonoBehaviour
         RaceManager.instance.DoALap(true);
 	}
 
-	void FinishGame(){
+	void FinishGame(int index){
 		ui.actions.gameObject.SetActive(false);
 		ui.backMenu.SetActive(true);
+		AudioManager.instance.PlayUnloop(index);
 	}
 }
